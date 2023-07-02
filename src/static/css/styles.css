@@ -1,0 +1,41 @@
+input[name="action0"] {
+  background-color: lightpink;
+}
+
+.btn {
+  background-color: lightskyblue;
+  border: 0;
+  color: white;
+  align-items: center;
+  border-radius: 25px;
+  width: 150px;
+  height: 100px;
+  font-size: xx-large;
+}
+
+@media screen and (max-width:520px) {
+  .btn{
+    width: 120px;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .btn{
+    width: 95px;
+  }
+}
+
+.btnMove,
+.btnBeep {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnMove {
+  position: relative;
+}
+
+.fa.fa-stop {
+  position: absolute;
+  top: calc(50% - 7px);
+}
