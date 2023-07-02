@@ -1,4 +1,4 @@
-# Robot Controller
+# iRobot Create 3 Controller
 
 ## Requirements
 
